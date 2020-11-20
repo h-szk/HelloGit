@@ -1,1 +1,5 @@
-Hello Git!
+$git init:ローカルリポジトリの作成
+$git add <file name>:ローカルリポジトリにファイルの変更点を記録
+$git commit -m "<comment>":ローカルリポジトリにインデックス（ファイルの変更点など）を追加したファイルを登録
+$git remote add origin <url>:追加したインデックスをGitHubに作成
+$git push origin master:ローカルリポジトリのファイルをGitHubのリポジトリに送信
